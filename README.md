@@ -1,91 +1,89 @@
-# AdventureWorks Cycles - Business Intelligence Project
+Adventure Works Cycles | Sales Analysis Dashboard
 
-## Overview
-This project simulates the role of a **Business Intelligence Analyst** for **AdventureWorks Cycles**, a fictional manufacturing company. The goal of the project was to transform raw dto insightful, professional-quality reports and interactive dashboards that track key performance indicators (KPIs), analyze regional performance, monitor product-level trends, and identify high-value customers.
+Project Overview
+_____________________
 
-Throughout the project, I applied best practices in **data preparation**, **data modeling**, **advanced analysis using DAX**, and **data visualization** to deliver actionable business insights for decision-makers. The project involves building an end-to-end BI solution using **Power BI**.
+This project presents an interactive Power BI dashboard for Adventure Works Cycles, a global bicycle manufacturing company. The dashboard provides end-to-end insights into sales performance, customer behavior, product trends, and returns to enable data-driven decision-making.
 
-## Technologies Usedata in
-- **Power BI Desktop**
-- **Power Query Editor**
-- **DAX (Data Analysis Expressions)**
-- **SQL (for data extraction)**
-- **Excel (for data modeling)**
 
-## Key Features
-- **Data Preparation**: Extracted, cleaned, and transformed raw data using Power Query.
-- **Data Modeling**: Built a relational data model with fact and dimension tables, relationships, and hierarchies.
-- **Advanced DAX Measures**: Created calculated fields using DAX functions such as `CALCULATE`, `FILTER`, and time intelligence patterns to derive business insights.
-- **Dashboard & Reports**: Designed interactive dashboards with KPIs, trend charts, maps, and slicers for in-depth analysis of sales, product performance, and regional trends.
+Technologies Used
+______________________
 
-## Files in This Repository
-- `AdventureWorks_Cycles.pbix`: Main Power BI project file containing all the reports and dashboards.
-- `Sales_Data.xlsx`: Sample sales data used for analysis and modeling.
-- `README.md`: Project documentation.
+SQL Server – for data storage and querying
 
-## How to Use
-### Power BI
-1. **Download the `AdventureWorks_Cycles.pbix` file**.
-2. **Open it in Power BI Desktop**.
-3. Explore the interactive dashboards that provide insights into:
-   - Total sales revenue and key product trends.
-   - Regional performance across different geographies.
-   - Customer segmentation and high-value customers.
+Power BI – for dashboard development and visualization
 
-### Data Insights:
-- The dashboard presents KPIs for sales performance, product analysis, and customer segmentation.
-- The reports allow you to drill down into specific regions, products, or customers to uncover hidden insights.
+Microsoft Excel – for data staging and initial formatting
 
-## Insights & Analysis
-- **Sales Performance**: The dashboard highlights overall sales performance, allowing users to quickly assess total revenue and monitor sales trends.
-- **Product-Level Trends**: The analysis identifies top-performing products by revenue, helping the company prioritize inventory and marketing strategies.
-- **Regional Insights**: The project includes regional performance comparison, making it easy to identify areas with high growth potential.
-- **Customer Segmentation**: By analyzing high-value customers, the company can tailor marketing efforts and improve customer retention.
+DAX (Data Analysis Expressions) – for calculated measures and KPIs
 
-## Data Modeling Techniques
-- **Relational Model**: Created a star schema with fact and dimension tables, ensuring an optimized and efficient data model.
-- **DAX Calculations**: Developed complex DAX measures to compute dynamic KPIs and time-based metrics like Year-to-Date (YTD) and Month-over-Month (MoM) growth.
+Power Query Editor – for data cleaning and transformation
 
-## Screenshots of Key Visualizations
-### Sales Dashboard
-![Sales Dashboard](screenshots/sales_dashboard.png)
+Key Features
+______________________
 
-### Regional Performance Analysis
-![Regional Analysis](screenshots/regional_performance.png)
+- Sales Overview with KPIs: Total Revenue, Orders, Profit, Return Rate
 
-### Product-Level Insights
-![Product Insights](screenshots/product_performance.png)
+- Revenue Trend: Year-wise and Month-wise visualization
 
-## Installation (Power BI)
-1. Install **Power BI Desktop** from [Power BI Download](https://powerbi.microsoft.com/downloads/).
-2. Download the `AdventureWorks_Cycles.pbix` file and open it in Power BI Desktop.
+- Top 10 Products: Highest orders and returns
 
-## License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+- Product-Level Analysis: Metrics like profit, revenue, and performance vs targets
 
----
+- Geographical View: Map of countries by total orders
 
-## About the Project Workflow
-This project followed the key stages of the **Business Intelligence (BI) workflow**:
+- Interactive Slicers: Product, Customer Type, Region, Salesperson, etc.
 
-1. **Connecting & Shaping Data**:
-   - Utilized **Power Query** to clean and transform raw data.
-   - Created custom columns, merged queries, and grouped data to prepare it for analysis.
 
-2. **Creating a Relational Data Model**:
-   - Built a **star schema** with fact and dimension tables.
-   - Defined relationships and hierarchies for effective analysis and reporting.
+Benefits
+______________________
 
-3. **Adding Calculated Fields with DAX**:
-   - Used **DAX** to create measures and calculated columns, enabling the generation of dynamic KPIs and advanced analytics.
-   - Applied time intelligence functions for analysis across different time periods.
+- Helps identify top-selling and high-return products
 
-4. **Visualizing Data with Reports**:
-   - Designed interactive and user-friendly dashboards, including KPI cards, trend charts, and geographical maps.
-   - Incorporated slicers, drill-through, and drill-down features for in-depth exploration.
+- Tracks performance against monthly sales, revenue, and profit targets
 
---
+- Provides insights into sales trends and customer behavior
 
-## Contact
-For any questions, feel free to reach out to me at [lopitamishra2001@gmail.com]
+- Supports strategic decisions related to pricing, inventory, and marketing
+  
 
+Project Workflow
+_________________________
+
+1. Data Extraction
+
+Imported raw data into SQL Server from Excel files
+
+
+
+2. Data Cleaning & Transformation
+
+- Performed initial cleaning in SQL Server using SQL queries
+
+- Further cleaned and shaped data using Power Query in Power BI
+
+
+
+3. Data Modeling
+
+- Created relationships between fact and dimension tables
+
+- Designed star schema for optimized reporting
+
+
+
+4. Measure Creation
+
+- Developed KPIs and calculated metrics using DAX
+
+
+
+5. Dashboard Development
+
+Designed a user-friendly and interactive dashboard in Power BI
+
+
+
+6. Testing & Optimization
+
+Validated metrics, optimized performance, and ensured smooth interactivity
