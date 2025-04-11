@@ -1,9 +1,14 @@
 Adventure Works Cycles | Sales Analysis Dashboard
 
+
+
+
 Project Overview
 _____________________
 
-This project presents an interactive Power BI dashboard for Adventure Works Cycles, a global bicycle manufacturing company. The dashboard provides end-to-end insights into sales performance, customer behavior, product trends, and returns to enable data-driven decision-making.
+This project presents an interactive Power BI dashboard for Adventure Works Cycles, a global bicycle manufacturing company. The dashboard provides end-to-end insights into sales performance, customer behavior, product trends, and returns to enable data-driven decision-making
+
+
 
 
 Technologies Used
@@ -18,6 +23,9 @@ Microsoft Excel – for data staging and initial formatting
 DAX (Data Analysis Expressions) – for calculated measures and KPIs
 
 Power Query Editor – for data cleaning and transformation
+
+
+
 
 Key Features
 ______________________
@@ -35,6 +43,8 @@ ______________________
 - Interactive Slicers: Product, Customer Type, Region, Salesperson, etc.
 
 
+
+
 Benefits
 ______________________
 
@@ -45,6 +55,8 @@ ______________________
 - Provides insights into sales trends and customer behavior
 
 - Supports strategic decisions related to pricing, inventory, and marketing
+
+
   
 
 Project Workflow
